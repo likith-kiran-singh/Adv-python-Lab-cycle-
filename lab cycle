@@ -1,0 +1,72 @@
+# Adv-python-Lab-cycle-
+1. Write a program to check whether the given sentence consists of allvowels or not.
+   Here are some of the words: EDUCATION,AUTOMOBILE, EVACUATION, REMUNERATION,REGULATION.
+2. Write a program to find out the list the words that can be formed with the
+  letters 'A', 'K', 'E', 'O','T', 'P', 'N'. from the given list of words. Arun,Varun, Kent,
+  Eat, Pot, net, Peak, Peacock, Zebra, Nato, Toe, Poke, Knife,Peot, Venus, Ant.
+3. There is a collection of Five Employees data with id, name, basic salary
+  with allowances (TA, DA, HRA, and bonus), number of years experience.
+  Evaluate the following data:
+   display all employee names and their net salaries
+   display employee name with highest & lowest salary.
+   display the average salary.
+  Note: No bonus for employees with less than 2 years of experience.
+4. Write a Python program to sort the names in a dictionary based on a
+  character at particular position of the name.
+  Eg: {1:”Rama”,2:”Raju”,3:”Ravi”} 
+  If position=3rd, output=[“Raju”, “Rama”,” Ravi”}
+5. Write a program to count the numbers of characters in the string and store
+  them in a dictionary data structure
+6. Demonstrate matrix addition, multiplication of any two matrices using numpy.
+7. Write a Python program to compute the eigen values and right eigen
+  vectors of a given square array.
+8. Write a Numpy program to swap rows and columns of a given array in reverse order.
+9. Demonstrate the car sales of a show room during the last 6 months with
+  the help of bar chart. (Use matplotlib) demonstrate
+10.Demonstrate the pass percentage of students joined in 2019-20 academic
+  year in I-II semester with the help of bar chart, pie chart, scatter plot.
+11.Find out number of lines, words, characters in a given text file.
+12.Accumulate all words into the respective alphabet buckets from the given text file.
+13.Write a Pandas program to create and display a DataFrame from a
+  specified dictionary data which has the index labels.
+  Sample Python dictionary data and list labels:
+  exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily',
+  'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+  'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+  'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+  'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+  labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+  Expected Output:
+  attempts name qualify score
+  a 1 Anastasia yes 12.5
+  b 3 Dima no 9.0
+  .... i 2 Kevin no 8.0
+  j 1 Jonas yes 19.0
+14.Write a Pandas program to select the rows where number of attempts in
+  the examination is less than 2 and score greater than 15.
+  Sample Python dictionary data and list labels:
+  exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily',
+  'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+  'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19], 
+  'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+  'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+  labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+  Expected Output:
+  Number of attempts in the examination is less than 2 and score greater
+  than 15 :
+  name score attempts qualify
+  j Jonas 19.0 1 yes
+15.Write a Python program to convert RGB to gray scale and also display
+  information of the image
+16.Write a Python program to read and display image
+17.Write a Python program to demonstrate database operations such as
+  create, insert, select and, update
+18.Write a Python program to display the following
+  A) Display employee joined in the given year
+  B) Display the manager with highest salary
+  C) Display the department with high average salary
+19.Write a Python program to perform the following
+  A) Display the employee names that begin with given letter
+  B) Display the sorted list of employee names
+  C) Display the employees joined between the given dates
+20.Write s Python program to read data from Twitter and display the data
